@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.feature-section{
+    background-color: #FAFAFA;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    padding:  0 0 0.5rem 0;
+}
+
+.feature-section-heading{
+    max-width: 42rem;
+    margin: auto;
+    padding: 1rem 1.25rem;
+}
+
+.feature-section-heading h2{
+    color: #18181B;
+    font-weight: 800;
+    font-size: 3.25rem;
+
+}
+
+.feature-section-heading h2 span{
+    color: #2563EB;
+}
+
+.feature-section-heading p{
+    font-size: 1.25rem;
+    color: #52525B;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .feature-section-heading p{
+        text-align: justify;
+    }
+   
+}
+
+/*Cards*/
+.feature-cards{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 2rem;
+    
+}
+
+.feature-card{
+    padding: 2.5rem;
+    background-color: white;
+    margin: 1rem 2.5rem;
+    border-radius: .5rem;
+   
+}
+
+
+
+.feature-card-data h5{
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0.75rem auto ;
+}
+
+.feature-card-content p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .feature-cards{
+        flex-direction: column;
+        margin: 1rem 1.2rem;
+        
+    }
+
+    .feature-card{ 
+        margin: 1rem 1rem;
+       padding: 1.5rem;
+    }
+
+    
+   
+}
